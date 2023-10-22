@@ -1,0 +1,279 @@
+body {
+    max-width   : 1200px;
+    margin      : 0;
+    display     : block;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+.container {
+    width: inherit;
+}
+
+.header {
+    width     : inherit;
+    height    : 8em;
+    box-sizing: border-box;
+    margin    : 5px 0px;
+    position  : relative;
+}
+
+.header .nav-bar {
+    display         : flex;
+    position        : absolute;
+    height          : fit-content;
+    background-color: lightblue;
+    bottom          : 5px;
+    top             : 85%;
+    left            : 50%;
+    transform       : translate(-50%, -50%);
+    justify-content : space-between;
+    color           : blue;
+}
+
+.footer .nav-bar {
+    display        : flex;
+    height         : fit-content;
+    justify-content: center;
+}
+
+
+
+.header-title {
+    width           : inherit;
+    height          : 6em;
+    width           : inherit;
+    background-color: #2C4870;
+    color           : white;
+    text-shadow     : 0px 0px 2px black;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    font-size       : 18px;
+    box-sizing      : border-box;
+}
+
+.menu {
+    width : fit-content;
+    margin: 5px;
+}
+
+.header .nav-bar .menu:hover {
+    color      : yellow;
+    text-shadow: 0px 0px 2px gray;
+    cursor     : pointer;
+}
+
+.footer .nav-bar .menu:hover {
+    background-color: orange;
+    cursor          : pointer;
+    color           : white;
+}
+
+.main-section {
+    width        : inherit;
+    display      : flex;
+    overflow     : auto;
+    border-top   : 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+.news {
+    width     : 360px;
+    box-sizing: border-box;
+    margin    : 10px;
+}
+
+.arrow-left,
+.arrow-right {
+    margin: 0 10px;
+}
+
+.news-header.inactive {
+    opacity: 0.5;
+}
+
+.Main {
+    flex      : 1;
+    width     : inherit;
+    overflow  : auto;
+    box-sizing: border-box;
+    margin    : 10px;
+}
+
+.regis-header {
+    width          : inherit;
+    height         : 3em;
+    border-bottom  : 1px solid black;
+    color          : orange;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    font-size      : 25px;
+}
+
+
+.register {
+    width     : inherit;
+    height    : fit-content;
+    margin-top: 10px;
+}
+
+.regis-reset {
+    display        : flex;
+    width          : inherit;
+    height         : fit-content;
+    justify-content: center;
+}
+
+.buyer-list {
+    width           : inherit;
+    height          : 3em;
+    background-color: pink;
+}
+
+.bill-info {
+    width    : inherit;
+    display  : flex;
+    flex-wrap: wrap;
+    overflow : hidden;
+    margin   : 5px 0px;
+}
+
+.name-input,
+.address-input,
+.phone-input,
+.gender-input,
+.deliveryDay-input,
+.email-input {
+    display   : flex;
+    flex-basis: 90%;
+    margin    : 5px 0px;
+}
+
+.name,
+.address,
+.phone,
+.gender,
+.deli-day,
+.email {
+    width     : 50%;
+    text-align: end;
+    margin    : 0px 10px;
+}
+
+.name-input input,
+.address-input input,
+.phone-input input,
+.deliveryDay-input input,
+.email-input input {
+    flex: 1;
+    /* Đặt width của input là 100% để chiếm toàn bộ độ dài còn lại */
+}
+
+
+
+.news-element {
+    width: inherit;
+}
+
+.news-header {
+    width: inherit;
+}
+
+.footer {
+    width           : inherit;
+    height          : 1.5em;
+    background-color: lightyellow;
+    box-sizing      : border-box;
+    margin          : 5px 0px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.header .nav-bar {
+    width: 50%;
+}
+
+.products-list {
+    border    : 2px solid orange;
+    height    : 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.cartItems {
+    border    : 2px solid orange;
+    height    : 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.products {
+    display   : flex;
+    width     : inherit;
+    height    : 300px;
+    box-sizing: border-box;
+}
+
+.choose-button {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+}
+
+.choose-button button {
+    width        : 30px;
+    margin       : 5px;
+    border       : 2px solid orange;
+    border-radius: 5px;
+    cursor       : pointer;
+}
+
+.product {
+    width        : inherit;
+    text-align   : center;
+    font-size    : 20px;
+    height       : fit-content;
+    padding      : 5px;
+    border       : 1px solid gray;
+    margin       : 3px;
+    border-radius: 5px;
+}
+
+.orange-background {
+    background-color: orange;
+}
+
+.table {
+    height: 200px;
+    width : inherit;
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing : 2px;
+    width          : 100%;
+    color          : #333;
+    font-family    : Arial, sans-serif;
+    font-size      : 14px;
+    text-align     : center;
+}
+
+th {
+    background-color: orange;
+    color           : white;
+    padding         : 10px;
+
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

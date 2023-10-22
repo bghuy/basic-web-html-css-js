@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-title">Bài tập 1 - 21127615</div>
+        <div class="nav-bar"></div>
+      </div>
+      <div class="main-section">
+        <div class="news"></div>
+        <div style="border-right: 2px dashed lightblue"></div>
+        <div class="Main">
+          <div class="regis-header">Đăng kí đơn hàng</div>
+          <div class="register">
+            <div class="bill-info">
+              <div class="name-input">
+                <div class="name">Họ và tên:</div>
+                <input type="text" id="input-name" class="answer" />
+              </div>
+              <div class="address-input">
+                <div class="address">Địa chỉ:</div>
+                <input type="text" id="input-address" class="answer" />
+              </div>
+              <div class="phone-input">
+                <div class="phone">Điện thoại:</div>
+                <input type="text" id="input-phoneNumber" class="answer" />
+              </div>
+              <div class="gender-input">
+                <div class="gender">Giới tính:</div>
+                <input type="checkbox" id="male" name="gender" class="answer" />
+                <label for="male">Nam</label>
+                <input
+                  type="checkbox"
+                  id="female"
+                  name="gender"
+                  class="answer"
+                />
+                <label for="female">Nữ</label>
+              </div>
+              <div class="deliveryDay-input">
+                <div class="deli-day">Ngày giao hàng:</div>
+                <input type="date" id="input-deliveryDay" class="answer" />
+              </div>
+              <div class="email-input">
+                <div class="email">Email:</div>
+                <input type="text" id="input-email" class="answer" />
+              </div>
+            </div>
+            <div class="products">
+              <div style="flex: 1">
+                <div style="text-align: end; color: orange">
+                  Danh sách sản phẩm
+                </div>
+                <div class="products-list">
+                  <div class="electricProduct">
+                    <div class="product">📱iPhone 14 $1349</div>
+                    <div class="product">📱iPhone 13 $1348</div>
+                    <div class="product">📱iPhone 12 $1347</div>
+                    <div class="product">📱iPhone 11 $1346</div>
+                    <div class="product">💻laptop asus $2347</div>
+                    <div class="product">💻laptop dell $2346</div>
+                    <div class="product">💻laptop hp $2345</div>
+                    <div class="product">💻 macbook $2345</div>
+                  </div>
+                </div>
+              </div>
+              <div class="choose-button">
+                <button class="addButton">></button>
+                <button class="addAllButton">>></button>
+                <button class="removeButton">&lt</button>
+                <button class="removeAllButton">&lt&lt</button>
+              </div>
+              <div style="flex: 1">
+                <div style="text-align: start; color: orange">
+                  sản phẩm đã chọn
+                </div>
+                <div class="cartItems"></div>
+              </div>
+            </div>
+          </div>
+          <div class="regis-reset">
+            <button style="margin: 5px" class="submitBtn">Đăng ký</button>
+            <button style="margin: 5px" class="clear-button">Xóa hết</button>
+          </div>
+          <div class="table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Họ tên</th>
+                  <th>Giới tính</th>
+                  <th>Địa chỉ</th>
+                  <th>Ngày giao</th>
+                  <th>Sản phẩm</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Nguyễn Thị A</td>
+                  <td>Nữ</td>
+                  <td>TP. Hồ Chí Minh</td>
+                  <td>07/10/2023</td>
+                  <td>13" Redmi Pro M1"</td>
+                </tr>
+                <tr>
+                  <td>Trần Thị C</td>
+                  <td>Nữ</td>
+                  <td>TP. Cần Thơ</td>
+                  <td>07/10/2002</td>
+                  <td>iPhone 11 Pro Max 256GB</td>
+                </tr>
+                <tr>
+                  <td>Lê Văn E</td>
+                  <td>Nam</td>
+                  <td>Hà Nội</td>
+                  <td>01/01/1990</td>
+                  <td>Samsung Galaxy S21 Ultra 5G 256GB</td>
+                </tr>
+                <tr>
+                  <td>Phạm Thị F</td>
+                  <td>Nữ</td>
+                  <td>Hải Phòng</td>
+                  <td>15/05/1995</td>
+                  <td>
+                    iPad Pro 12.9 inch Wi-Fi + Cellular 256GB - Gen 5 (2021)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="footer" style="color: orange">
+        <div>Copyright@BạchGiaHuy</div>
+        <div class="nav-bar">
+          <div class="menu" style="margin: 0px 0px 0px 5px">Menu1 |</div>
+          <div class="menu" style="margin: 0px 0px 0px 5px">Menu2 |</div>
+          <div class="menu" style="margin: 0px 0px 0px 5px">Menu3 |</div>
+          <div class="menu" style="margin: 0px 0px 0px 5px">Menu4 |</div>
+          <div class="menu" style="margin: 0px 0px 0px 5px">Menu5</div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
